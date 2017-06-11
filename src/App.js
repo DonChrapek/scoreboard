@@ -1,10 +1,15 @@
 import React from 'react';
-import './App.css';
+import './css/App.css';
 
-export default class App extends Component {
+import {Footer} from './Footer';
+
+export default class App extends React.Component {
   render() {
     return (
-      <h1>Here comes the Scoreboard</h1>
+      <div>
+          <h1>Here comes the Scoreboard</h1>
+          <Footer />
+      </div>
     );
   }
 }
