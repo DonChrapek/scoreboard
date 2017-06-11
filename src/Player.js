@@ -9,9 +9,9 @@ export default class Player extends React.Component {
                     <h3>Name</h3>
                 </div>
                 <div className="player-score">
-                    <button id="decrement red-button"> - </button>
-                    <div id="score-box"></div>
-                    <button id="increment green-button"> + </button>
+                    <button id="decrement" className="red-button"> - </button>
+                    <div id="score-box">21</div>
+                    <button id="increment" className="green-button"> + </button>
                 </div>
             </div>
         )

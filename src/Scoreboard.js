@@ -6,7 +6,16 @@ import Player from './Player';
 export default class Scoreboard extends React.Component {
     render() {
         return (
-            <Player />
+            <section id="scoreboard">
+                <div className="scoreboard-title">
+                    <h1>Scoreboard</h1>
+                </div>
+                <div className="scoreboard-rank">
+                    <Player />
+                    <Player />
+                    <Player />
+                </div>
+            </section>
         )
     }
 }
